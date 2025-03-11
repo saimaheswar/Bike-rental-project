@@ -1,0 +1,19 @@
+.open brental1
+
+
+CREATE TABLE bikestn
+(
+id VARCHAR(6),
+code VARCHAR(60),
+byear VARCHAR(6),
+city VARCHAR(60),
+state VARCHAR(60),
+country VARCHAR(40),
+ccmobile VARCHAR(15)
+);
+
+CREATE TABLE traffic
+(
+n VARCHAR(4),ne VARCHAR(4),e VARCHAR(4),se VARCHAR(4),s VARCHAR(4),sw VARCHAR(4),w VARCHAR(4),nw VARCHAR(4)
+);
+
