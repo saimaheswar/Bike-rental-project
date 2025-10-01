@@ -1,7 +1,8 @@
 import numpy as np
 import csv
 import pandas as pd
-df = pd.read_csv('bikeset.csv')
+import os
+df = pd.read_csv(os.path.join(os.path.dirname(__file__), '..', 'data', 'bikeset.csv'))
 df["N_Traffic"] = df["N_Traffic"].map({'North_Abnormal':1 ,'North_normal':0})
 df["NE_Traffic"] = df["NE_Traffic"].map({'NE_Abnormal':1 ,'NE_Normal':0})
 df["E_Traffic"] = df["E_Traffic"].map({'East_Abnormal':1 ,'East_normal':0})
