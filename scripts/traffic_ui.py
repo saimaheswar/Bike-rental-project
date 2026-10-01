@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/Users/b.vsaimaheswar/Bike-rental-project-1/ui/traffic.ui'
+# Form implementation generated from reading ui file 'ui/traffic.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.11
 #
